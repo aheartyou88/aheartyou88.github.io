@@ -10,7 +10,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Contact - Amanda You</title>
+    <title>Blog - Coding</title>
 
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,6 +18,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+
+    <!-- theme meta -->
+    <meta name="theme-name" content="galaxy" />
 
     <!-- ** Plugins Needed for the Project ** -->
     <!-- Bootstrap -->
@@ -89,7 +92,7 @@
                   aria-controls="drop-menu"
                   >Miscellaneous</a
                 >
-                 <div id="drop-menu" class="drop-menu collapse">
+                <div id="drop-menu" class="drop-menu collapse">
                   <a class="d-block" href="subscribe.html">Subscribe</a>
                   <a class="d-block" href="faq.html">FAQ</a>
                   <a class="d-block" href="privacy.html">Privacy Policy</a>
@@ -110,22 +113,34 @@
 
           <ul class="list-inline nml-2">
             <li class="list-inline-item">
-              <a href="#!" class="text-white text-red-onHover pr-2">
-                <span class="fab fa-twitter"></span>
+              <a
+                href="https://github.com/aheartyou88"
+                class="text-white text-red-onHover pr-2"
+              >
+                <span class="fab fa-github"></span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#!" class="text-white text-red-onHover p-2">
+              <a
+                href="https://www.facebook.com/aheartyou88"
+                class="text-white text-red-onHover p-2"
+              >
                 <span class="fab fa-facebook-f"></span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#!" class="text-white text-red-onHover p-2">
+              <a
+                href="https://www.instagram.com/forevermrsyou/"
+                class="text-white text-red-onHover p-2"
+              >
                 <span class="fab fa-instagram"></span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#!" class="text-white text-red-onHover p-2">
+              <a
+                href="https://www.linkedin.com/in/amanda-you-0632b5274/"
+                class="text-white text-red-onHover p-2"
+              >
                 <span class="fab fa-linkedin-in"></span>
               </a>
             </li>
@@ -155,121 +170,48 @@
         <div class="nav-toggle-overlay"></div>
         <!-- end of mobile-nav -->
 
-        <div class="container py-4 my-5">
-          <div class="row">
-            <div class="col-lg-5 col-md-8">
-              <form class="search-form" action="#">
-                <div class="input-group">
-                  <input
-                    type="search"
-                    class="form-control bg-transparent shadow-none rounded-0"
-                    placeholder="Search here"
-                  />
-                  <div class="input-group-append">
-                    <button class="btn" type="submit">
-                      <span class="fas fa-search"></span>
-                    </button>
-                  </div>
+        <div class="container pt-4 mt-5">
+          <div class="row justify-content-between">
+            <div class="col-lg-7">
+              <div class="card post-item bg-transparent border-0 mb-5">
+                <a href="blog-coding.html">
+                  <!-- <img
+                    class="card-img-top rounded-0"
+                    src="images/pexels-pixabay-270632.jpg"
+                    alt=""
+                  /> -->
+                </a>
+                <div class="card-body px-0">
+                  <h2 class="card-title">
+                    <a>
+                      <!-- class="text-white opacity-75-onHover"
+                      href="blog-coding.html" -->
+                      Blog</a
+                    >
+                  </h2>
+                  <!-- <ul class="post-meta mt-3">
+                    <li class="d-inline-block mr-3">
+                      <span class="fas fa-clock text-primary"></span>
+                      <a class="ml-1" href="#">28 Septemeber, 2023</a>
+                    </li>
+                    <li class="d-inline-block">
+                      <span class="fas fa-list-alt text-primary"></span>
+                      <a class="ml-1" href="#">Professional</a>
+                    </li>
+                  </ul> -->
+                  <p class="card-text my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus vel pariatur reprehenderit voluptatem quia veniam? Numquam non aut, at et praesentium voluptatem laborum aliquid excepturi atque dolor, laboriosam maiores consequuntur?
+                  </p>
+                  <a href="welcome.html" class="btn btn-primary"
+                    >Personal <img src="images/arrow-right.png" alt=""
+                  /></a>
+                  <a href="blog-coding.html" class="btn btn-primary"
+                    >Professional <img src="images/arrow-right.png" alt=""
+                  /></a>
                 </div>
-              </form>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-10">
-              <div class="contact-form bg-dark">
-                <h1 class="text-white add-letter-space mb-5">
-                  Lets Contact Us
-                </h1>
-                <form method="POST" class="needs-validation" novalidate>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group mb-5">
-                        <label for="firstName" class="text-black-300"
-                          >Your First Name</label
-                        >
-                        <input
-                          type="text"
-                          id="firstName"
-                          class="form-control bg-transparent rounded-0 border-bottom shadow-none pb-15 px-0"
-                          placeholder="Robert Lee"
-                          required
-                        />
-                        <p class="invalid-feedback">
-                          Your first-name is required!
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group mb-5">
-                        <label for="lastName" class="text-black-300"
-                          >Your Last Name</label
-                        >
-                        <input
-                          type="text"
-                          id="lastName"
-                          class="form-control bg-transparent rounded-0 border-bottom shadow-none pb-15 px-0"
-                          placeholder="Anderson"
-                          required
-                        />
-                        <p class="invalid-feedback">
-                          Your last-name is required!
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group mb-5">
-                        <label for="email" class="text-black-300"
-                          >E-Mail Address</label
-                        >
-                        <input
-                          type="email"
-                          id="email"
-                          class="form-control bg-transparent rounded-0 border-bottom shadow-none pb-15 px-0"
-                          placeholder="kevin.jones@mail.com"
-                          required
-                        />
-                        <p class="invalid-feedback">Your email is required!</p>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group mb-5">
-                        <label class="text-black-300"
-                          >What Is This About?</label
-                        >
-                        <select class="d-block w-100">
-                          <option value="1">Personal Proposal</option>
-                          <option value="2">Business Purpose</option>
-                          <option value="3">Want to say hello</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group mb-5">
-                        <label for="message" class="text-black-300"
-                          >Your message</label
-                        >
-                        <textarea
-                          name="message"
-                          class="form-control bg-transparent rounded-0 border-bottom shadow-none pb-15 px-0"
-                          placeholder="Lorem Ipsum is simply dummy text of the printing and..."
-                          required
-                        ></textarea>
-                        <p class="invalid-feedback">Message is required!</p>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <!-- <button type="submit" class="btn btn-sm btn-primary"
-                        Send Now <img src="images/arrow-right.png" alt="" />
-                      </button> -->
-                    </div>
-                  </div>
-                </form>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!-- start of footer -->
+              <!-- start of footer -->
         <footer class="bg-dark">
           <div class="container">
             <div class="row text-center">
